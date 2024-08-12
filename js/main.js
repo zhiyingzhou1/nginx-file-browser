@@ -135,7 +135,7 @@ $(document).ready(function () {
         console.log("navigateTo", path);
 
         if(path.includes('/HKBUser_') || path.includes('/HKBAdmin_')) {
-            window.location.replace(`/files${path}index.html#g=1&p=home`)
+            window.location.replace(`/files${path}index.html`)
             return;
         }
         isNavigating = true;
